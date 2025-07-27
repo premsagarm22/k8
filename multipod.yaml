@@ -7,6 +7,6 @@ spec:
     - name: nginx
       image: nginx:1.14
     - name: centos
-      image: centos:latest 
+      image: hello-world
       ports:
         - containerPort: 80
